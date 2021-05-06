@@ -1,0 +1,71 @@
+{
+  "openapi": "3.0.0",
+  "info": { "title": "Planetarium", "version": "1.0.0" },
+  "servers": [{ "url": "http://localhost:3001/planetarium" }],
+  "paths": {
+    "/state": {
+      "get": {
+        "description": "The state of the planetarium.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": { "application/json": {} },
+            "headers": {}
+          }
+        }
+      },
+      "post": {
+        "description": "",
+        "responses": {
+          "405": {
+            "description": "",
+            "content": { "application/json": {} },
+            "headers": {}
+          }
+        }
+      },
+      "put": {
+        "description": "The state of the planetarium.",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": { "application/json": {} },
+            "headers": {}
+          },
+          "400": {
+            "description": "",
+            "content": { "application/json": {} },
+            "headers": {}
+          }
+        }
+      },
+      "delete": {
+        "description": "",
+        "responses": {
+          "405": {
+            "description": "",
+            "content": { "application/json": {} },
+            "headers": {}
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "description": "",
+        "responses": {
+          "308": {
+            "description": "",
+            "content": { "application/json": {} },
+            "headers": {
+              "Location": {
+                "schema": { "type": "string" },
+                "example": "/planetarium/state"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
