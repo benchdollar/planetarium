@@ -1,18 +1,23 @@
 // import { makeStyles } from "@material-ui/core";
 import React from "react";
 import ToggleControl from "./ToggleControl";
+import { PlanetariumItem } from "./PlanetariumData";
 import "./PlanetariumCard.css";
 
-import image from '../resources/sun.jpg';
+// import image from '../resources/sun.jpg';
+
+type PlanetariumCardProps = {
+  cardItem: PlanetariumItem
+}
 
 
-const PlanetariumCard = (props: Partial<PlanetariumItem>) => {
+const PlanetariumCard = ({cardItem}:PlanetariumCardProps) => {
 //   const classes = makeStyles();
-const title = "This is the title";
+const title = cardItem.title;
 
   return (
     <div className="container">
-      <div className="frame" style={{ backgroundImage: `url(${image})` }}></div>
+      <div className="frame" style={{ backgroundImage: `url(${cardItem.image})` }}></div>
       <div className="topleft title">{title}</div>
       <div className="bottomright">
         <ToggleControl />
