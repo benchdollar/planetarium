@@ -6,9 +6,7 @@ import "./PlanetariumCard.css";
 import image from '../resources/sun.jpg';
 
 
-
-
-const PlanetariumCard = (props:any) => {
+const PlanetariumCard = (props: Partial<PlanetariumItem>) => {
 //   const classes = makeStyles();
 const title = "This is the title";
 

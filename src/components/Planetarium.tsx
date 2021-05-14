@@ -5,17 +5,6 @@ import './PlanetariumCard';
 import PlanetariumCard from './PlanetariumCard';
 
 
-const items = [
-    {
-        title: "Random Title #1",
-        image: "The sun"
-    },
-    {
-        title: "Random Title #1",
-        image: "The sun"
-    }
-]
-
 const Planetarium = () => {
   return (
   <div className="planetarium">
