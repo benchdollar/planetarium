@@ -13,27 +13,27 @@ export interface PlanetariumItem {
 
 export const PlanetariumItems: Array<PlanetariumItem> = [
   {
-    id: 0,
+    id: 17,
     title: "Die Milchstraße",
     image: imageMilkyway,
   },
   {
-    id: 1,
+    id: 0,
     title: "Die Sonne",
     image: imageSun,
   },
   {
-    id: 2,
+    id: 1,
     title: "Der Merkur",
     image: imageSun,
   },
   {
-    id: 3,
+    id: 2,
     title: "Die Venus",
     image: imageSun,
   },
   {
-    id: 4,
+    id: 3,
     title: "Die Erde mit ihrem Mond",
     image: imageEarth,
   },

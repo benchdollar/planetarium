@@ -25,14 +25,35 @@ const useStyles = makeStyles({
     }
 })
 
-const ToggleControl = () => {
+type toggleControlProps = {
+    toggled: boolean,
+    callback: any,
+}
+
+const ToggleControl = ({toggled, callback} : toggleControlProps) => {
     const classes = useStyles();
-    const [selected , setSelected] = React.useState(false);
+    const [selected , setSelected] = React.useState(toggled);
+
+    const onChangeHandler = (newValue:boolean) => {
+        // update local state for rendering
+        setSelected(newValue);
+        // update callback
+        callback(newValue);
+    };
 
   return (
-      <ToggleButton selected={selected} classes={{selected: classes.selected}} className={classes.control} disableRipple={false} onChange={() => {setSelected(!selected)}}>
-          <EmojiObjectsIcon fontSize="large" />
-      </ToggleButton>
+    <ToggleButton
+      value={0}
+      selected={toggled || selected}
+      classes={{ selected: classes.selected }}
+      className={classes.control}
+      disableRipple={false}
+      onChange={() => {
+        onChangeHandler(!selected);
+      }}
+    >
+      <EmojiObjectsIcon fontSize="large" />
+    </ToggleButton>
   );
 }
 
