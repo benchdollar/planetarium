@@ -4,6 +4,7 @@ import "./Planetarium.css";
 import PlanetariumCard from "./PlanetariumCard";
 import { PlanetariumItems } from "./PlanetariumData";
 import {PlanetariumContext} from "./PlanetariumContext";
+import { useSnackbar } from 'notistack';
 
 const noOfSwitches = 18;
 const initialState: Array<boolean> = Array(noOfSwitches).fill(false);
@@ -13,6 +14,12 @@ let count = 0;
 
 const Planetarium = () => {
     const [switches, setSwitches] = useState(initialState);
+    const { enqueueSnackbar, closeSnackbar } = useSnackbar();
+
+
+    // const handleClick = () => {
+    //     enqueueSnackbar('I love hooks');
+    // };
 
     // preload all images
     // useEffect(() => {
@@ -31,18 +38,24 @@ const Planetarium = () => {
 
         let state = switches;
         if (state[id] !== switchedOn) {
-            console.log(`Setting switch ${id} to ${switchedOn} [count ${count}].`);
+            const message = `Setting switch ${id} to ${switchedOn} [count ${count}].`;
+            console.log(message);
+            enqueueSnackbar(message, {
+                variant: 'info',
+            });
             state[id] = switchedOn;
             setSwitches(state);
             count++;
+            console.log("YYYYYYY");
+            // handleClick();
         }
     };
 
     useEffect(() => {
-        console.log("XXXXXXX")
-        return () => {
+        console.log("XXXXXXX");
+        // return () => {
             
-        }
+        // }
     })
 
     return (
