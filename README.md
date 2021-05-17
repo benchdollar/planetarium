@@ -2,24 +2,27 @@
 
 This web frontend based on Typescript and React controls a simple HTTP API (not to say RESTful). It allows to toggle exactly 18 binary switches which, in turn, illuminate LEDs on a children's planetarium, a black piece of plywood featuring the solar system an a couple of star constellation.
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
+![Screenshot]{./doc/Screenshot.png}
+
+[Translation needed:]
+1. Sonne
+2. Merkur
+3. Venus
+4. Mars
+5. Erde und Mond
+6. Jupiter
+7. Saturn
+8. Uranus
+9. Neptun
+10. Pluto
+11. Bootes
+12. Adler
+13. Leier
+14. Wagen
+15. Andromeda & Kassiopeia
+16. Zwillinge
+17. Orion
+18. Sirius
 
 ## Getting Started with Create React App
 
