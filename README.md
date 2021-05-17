@@ -2,7 +2,7 @@
 
 This web frontend based on Typescript and React controls a simple HTTP API (not to say RESTful). It allows to toggle exactly 18 binary switches which, in turn, illuminate LEDs on a children's planetarium, a black piece of plywood featuring the solar system an a couple of star constellation.
 
-![Screenshot]{./doc/Screenshot.png}
+![Screenshot](./doc/Screenshot.png)
 
 [Translation needed:]
 1. Sonne
