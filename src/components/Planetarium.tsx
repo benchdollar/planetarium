@@ -8,7 +8,8 @@ import { useSnackbar } from 'notistack';
 import axios from "axios";
 import _ from "lodash";
 
-const apiUrl = 'http://localhost:3001/planetarium/state';
+//const apiUrl = 'http://localhost:3001/planetarium/state';
+const apiUrl = 'http://192.168.178.175/state';
 
 const noOfSwitches = 18;
 const initialState: Array<boolean> = Array(noOfSwitches).fill(false);
@@ -48,9 +49,7 @@ const Planetarium = () => {
         if (state[id] !== switchedOn) {
             const message = `Setting switch ${id} to ${switchedOn} [count ${count}].`;
             console.log(message);
-            enqueueSnackbar(message, {
-                variant: 'info',
-            });
+            //enqueueSnackbar(message, {variant: 'info'});
             state[id] = switchedOn;
             setSwitches(state);
             count++;
@@ -108,13 +107,13 @@ const Planetarium = () => {
     }
 
     const apiPut = (state: boolean[]) => {
-        axios.put(apiUrl, { "state": state2string(state) })
+        axios.put(apiUrl, `{"state":"${state2string(state)}"}`)
             .then(response => {
                 console.log(response.data);
                 enqueueSnackbar(`Set planetarium state with API`, {
                     variant: 'success',
                 });
-                // api2state(response.data);
+                api2state(response.data);
             })
             .catch((reason: any) => {
                 enqueueSnackbar(`Failed to load planetarium state from API: ${reason}`, {
