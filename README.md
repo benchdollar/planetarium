@@ -4,25 +4,24 @@ This web frontend based on Typescript and React controls a simple HTTP API (not 
 
 ![Screenshot](./doc/Screenshot.png)
 
-[Translation needed:]
-1. Sonne
-2. Merkur
+1. The sun
+2. Mercury
 3. Venus
 4. Mars
-5. Erde und Mond
+5. Earth and the Moon
 6. Jupiter
 7. Saturn
 8. Uranus
-9. Neptun
-10. Pluto
-11. Bootes
-12. Adler
-13. Leier
-14. Wagen
-15. Andromeda & Kassiopeia
-16. Zwillinge
+9. Neptune
+10. Pluto 
+11. Boötes
+12. Aquila
+13. Lyra
+14. Ursa Major & Minor
+15. Andromeda & Cassiopeia
+16. Gemini
 17. Orion
-18. Sirius
+18. Sirius (in Canis Major)
 
 ## Getting Started with Create React App
 
