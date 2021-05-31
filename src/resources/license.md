@@ -92,3 +92,44 @@ The following is a list of all the imagery sources.
 * License: Public Domain. Use for educational or informational purposes allowed (see https://www.nasa.gov/multimedia/guidelines/index.html)
 * Source: https://solarsystem.nasa.gov/resources/697/pluto-and-charon-strikingly-different-worlds/
 * Date last accessed: 2021-05-31
+
+
+## bootes.jpg
+
+* Description: Derivative work based on: Visual Constellations, A photographic field guide, Bootes
+* Author: © T. Credner & S. Kohle, AlltheSky.com
+* License: Private and non-profit educational purposes allowed (see https://www.allthesky.com/copyright.html)
+* Source: https://www.allthesky.com/constellations/visualconstellations.html
+* Date last accessed: 2021-05-31
+
+## aquila.png
+
+* Description: Aquila constellation map
+* Author: Copyright © 2003 Torsten Bronger. 
+* License: CC-BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/deed.de)
+* Source: https://commons.wikimedia.org/wiki/File:Aquila_constellation_map.png
+* Date last accessed: 2021-05-31
+
+## lyra.jpg
+
+* Description: The constellation Lyra, enhanced for color and contrast. Brightest five stars are labeled. 
+* Author: Pithecanthropus4152
+* License: CC-BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+* Source: https://commons.wikimedia.org/wiki/File:Lyra_2019-12-31.jpg
+* Date last accessed: 2021-05-31
+
+## ursa.jpg
+
+* Description: 
+* Author: 
+* License: CC-BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+* Source: https://commons.wikimedia.org/wiki/File:Lyra_2019-12-31.jpg
+* Date last accessed: 2021-05-31
+
+## ursa.jpg
+
+* Description: Own work based on: Ursa Minor and Ursa Major
+* Author: Panda~thwiki
+* License: CC-BY 4.0 (https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+* Source: https://commons.wikimedia.org/wiki/File:Ursa_Minor_and_Ursa_Major.jpg
+* Date last accessed: 2021-05-31

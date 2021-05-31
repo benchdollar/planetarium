@@ -10,6 +10,10 @@ import imageSaturn from "../resources/saturn.jpg";
 import imageUranus from "../resources/uranus.jpg";
 import imageNeptune from "../resources/neptune.jpg";
 import imagePluto from "../resources/pluto_and_charon.jpg";
+import imageBootes from "../resources/bootes.jpg";
+import imageAquila from "../resources/aquila.png";
+import imageLyra from "../resources/lyra.jpg";
+import imageUrsa from "../resources/ursa.jpg";
 
 export interface PlanetariumItem {
   id: number;
@@ -74,6 +78,26 @@ export const PlanetariumItems: Array<PlanetariumItem> = [
     id: 9,
     title: "Der Pluto",
     image: imagePluto,
+  },
+  {
+    id: 10,
+    title: "Das Sternbild Bootes (Bärenhüter)",
+    image: imageBootes,
+  },
+  {
+    id: 11,
+    title: "Das Sternbild Aquila (Adler)",
+    image: imageAquila,
+  },
+  {
+    id: 12,
+    title: "Das Sternbild Lyra (Leier)",
+    image: imageLyra,
+  },
+  {
+    id: 13,
+    title: "Die Sternbilder Kleiner und großer Bär (Ursa Minor/Major)",
+    image: imageUrsa,
   },
 ];
 
